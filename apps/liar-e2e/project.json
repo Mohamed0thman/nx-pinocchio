@@ -1,0 +1,10 @@
+{
+  "name": "liar-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/liar-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["liar"],
+  "// targets": "to see all targets run: nx show project liar-e2e --web",
+  "targets": {}
+}

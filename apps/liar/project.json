@@ -1,0 +1,9 @@
+{
+  "name": "liar",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/liar/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project liar --web",
+  "targets": {}
+}
