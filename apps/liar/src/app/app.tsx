@@ -4,12 +4,23 @@ import styles from './app.module.css';
 
 // import NxWelcome from './nx-welcome';
 
-import { Dialog } from '@pinocchio/shared-ui';
+import { Alert, Dialog, Toster } from '@pinocchio/shared-ui';
+import { hideAlert, hideToast, showAlert, showToast } from '@pinocchio/manger';
 
 export function App() {
   const [isOpen, setOpen] = useState(false);
   return (
     <div>
+      <Toster />
+
+      <Alert />
+
+      <button onClick={() => showToast()}>show Toster</button>
+      <button onClick={() => hideToast()}>hide Toster</button>
+
+      <button onClick={() => showAlert()}>show Alert</button>
+      <button onClick={() => hideAlert()}>hide Alert</button>
+
       {/* <NxWelcome title="liar" /> */}
       <Dialog isOpen={isOpen}>
         <Dialog.DialogTrigger>

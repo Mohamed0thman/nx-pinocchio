@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
-
-import SharedUi from './shared-ui';
+import React from 'react';
+import { Dialog } from '.';
 
 describe('SharedUi', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<SharedUi />);
+    const { baseElement } = render(<Dialog isOpen={false}></Dialog>);
     expect(baseElement).toBeTruthy();
   });
 });

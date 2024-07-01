@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@pinocchio/manger": ["libs/service/src/index.ts"],
       "@pinocchio/shared-ui": ["libs/src/index.ts"]
     }
   },
