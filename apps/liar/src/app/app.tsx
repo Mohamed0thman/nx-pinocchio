@@ -4,13 +4,15 @@ import styles from './app.module.css';
 
 // import NxWelcome from './nx-welcome';
 
-import { Alert, Dialog, Toster } from '@pinocchio/shared-ui';
 import {
-  showToast,
+  Alert,
+  Dialog,
+  Toster,
+  hideAlert,
   hideToast,
   showAlert,
-  hideAlert,
-} from 'libs/src/lib/services/manger';
+  showToast,
+} from '@pinocchio/shared-ui';
 
 export function App() {
   const [isOpen, setOpen] = useState(false);
