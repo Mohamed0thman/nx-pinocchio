@@ -1,6 +1,5 @@
 import { useEffect, useImperativeHandle, useRef, useState } from 'react';
-
-import { Signal, toastManager } from '@pinocchio/manger';
+import { Signal, toastManager } from '../services/manger';
 
 export const Toster = () => {
   const [message, setMessage] = useState<string>('');
